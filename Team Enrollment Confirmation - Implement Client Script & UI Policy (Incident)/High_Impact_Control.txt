@@ -1,0 +1,17 @@
+UI Policy Name: High Impact Control
+
+Table: Incident
+
+Active: True
+
+Condition:
+Impact is 1 - High
+
+Reverse if false: True
+
+UI Policy Action:
+
+Field: Urgency
+Read-only: True
+Visible: No change
+Mandatory: No change

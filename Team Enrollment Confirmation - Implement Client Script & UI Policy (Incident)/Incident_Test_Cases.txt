@@ -1,0 +1,75 @@
+TC-01 – High Impact UI Policy
+
+Action:
+Set Impact to High.
+
+Expected:
+High Impact Control UI Policy should trigger.
+
+
+TC-02 – Urgency Read-only
+
+Action:
+Set Impact to High.
+
+Expected:
+Urgency should become read-only.
+
+
+TC-03 – Automatic Urgency
+
+Action:
+Set Impact to High.
+
+Expected:
+Urgency should automatically become High.
+
+
+TC-04 – Assigned To Validation
+
+Action:
+Set Impact to High.
+Leave Assigned To empty.
+Click Submit.
+
+Expected:
+Record should not save.
+Error should appear.
+
+
+TC-05 – Successful Save
+
+Action:
+Set Impact to High.
+Select Assigned To.
+Click Submit.
+
+Expected:
+Incident should save successfully.
+
+
+TC-06 – Reverse Condition
+
+Action:
+Change Impact from High to Medium.
+
+Expected:
+Urgency should become editable.
+
+
+TC-07 – List Edit
+
+Action:
+Try to edit State directly from Incident list.
+
+Expected:
+Alert should appear and change should be blocked.
+
+
+TC-08 – Form Update
+
+Action:
+Change State from Incident form.
+
+Expected:
+State should save successfully.
